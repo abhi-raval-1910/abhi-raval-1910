@@ -30,7 +30,7 @@
 <table align="right">
   <tr>
     <td align="center">
-      <img src="https://media1.tenor.com/m/KRGfQXuQqbYAAAAC/jane.gif" width="245" alt="Patrick Jane" /><br />
+      <img src="https://media1.tenor.com/m/WrKhixeNCEcAAAAC/christian-bale-batman-begins-movie.gif" width="245" alt="Patrick Jane" /><br />
       <sub><i>"There's no such thing as psychics—<br/>just paying attention to details."</i></sub>
     </td>
   </tr>
