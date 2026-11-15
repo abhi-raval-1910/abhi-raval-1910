@@ -94,8 +94,8 @@
   <!-- Text Group -->
   <text x="390" y="43" text-anchor="middle">
     <tspan class="static-label" dx="-10">Hi 👋, I'm </tspan>
-    <tspan class="neon-outer" dx="10">Nikunj Bhatt</tspan>
-    <tspan class="neon-mid" dx="-151">Nikunj Bhatt</tspan>
-    <tspan class="neon-core" dx="-151">Nikunj Bhatt</tspan>
+    <tspan class="neon-outer" dx="10">Abhi Raval</tspan>
+    <tspan class="neon-mid" dx="-151">Abhi Raval</tspan>
+    <tspan class="neon-core" dx="-151">Abhi Raval</tspan>
   </text>
 </svg>
