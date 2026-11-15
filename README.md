@@ -12,6 +12,51 @@
   ⚡ Fun fact: <b>When I'm away from the terminal, I enjoy video editing and standup comedy.</b>
 </p>
 
+## 🔬 Featured Hardware, Silicon & Edge-AI Projects
+
+| Project | Technology Stack | Highlights & Engineering Impact |
+| :--- | :--- | :--- |
+| **[4×4 INT8 Systolic Array Matrix Multiplier](#)** | `SystemVerilog` `Verilator` `Yosys` `SKY130 PDK` | Designed an output-stationary 4×4 systolic array with 16 Processing Elements. Achieved 1,007 passing test cases and 16,112 successful output comparisons. Synthesized one PE to 615 standard cells with an area of 5,206.24 µm². |
+| **[2-Layer CNN FPGA Accelerator](https://github.com/abhi-raval-1910/Basys3_CNN_2layer)** | `Verilog` `Vivado` `Artix-7` `PyTorch` | Implemented a 2-layer CNN inference accelerator on the Basys 3 FPGA, featuring convolution stages, max pooling, 8 channels, and a 400-feature output layer. |
+| **[VisionTrack – Edge-AI Crowd Monitoring](https://github.com/abhi-raval-1910/Girnar-Headcount)** | `Python` `YOLO11n` `OpenCV` `Flask` `SQLite` | Developed a CCTV-based bidirectional people-counting system using object tracking and virtual-line detection. Achieved 90.91% upward-count accuracy and 92.71% downward-count accuracy during an LDCE field trial. |
+| **[16-Key Hexadecimal Keypad Encoder](#)** | `Verilog` `ModelSim` `Vivado` | Designed a digital keypad encoder using priority-based detection and combinational logic. Verified functionality through simulation and testbenches. |
+| **[ESP32 Rocket Flight Computer](#)** | `ESP32` `FreeRTOS` `C/C++` `I2C` `Python` | Developed a sensor-integrated flight computer using MPU6050, BMP280, and DHT11, featuring real-time telemetry, wireless communication, and flight-data logging. |
+| **[MakerBot 2.0 – Animatronic Humanoid](#)** | `Raspberry Pi` `Python` `OpenCV` `PID Control` `Servo Systems` | Contributed to an interactive humanoid robot at Maker Bhavan, IIT Gandhinagar, integrating computer vision, face tracking, servo actuation, and 3D-printed mechanisms. |
+
+---
+
+## ⚙️ Technical Skills
+
+**HDL & Digital Design:**  
+`Verilog` `SystemVerilog` `RTL Design` `FSM` `Digital Logic` `Testbenches`
+
+**VLSI & FPGA:**  
+`AMD Vivado` `Artix-7` `Yosys` `RTL-to-GDSII` `Synopsys Design Vision` `DFT`
+
+**Embedded Systems:**  
+`C` `C++` `Python` `ESP32` `Arduino` `Raspberry Pi` `FreeRTOS`
+
+**AI & Computer Vision:**  
+`PyTorch` `YOLO` `OpenCV` `NumPy` `Edge AI` `Flask`
+
+**EDA & Development Tools:**  
+`Verilator` `ModelSim` `GTKWave` `Git` `GitHub` `Linux`
+
+---
+
+## 🎓 Education
+
+- **B.E. Electronics & Communication Engineering** — L.D. College of Engineering
+- **Foundational Degree in Data Science & Applications** — IIT Madras
+
+---
+
+## 🤝 Connect With Me
+
+- **GitHub:** [@abhi-raval-1910](https://github.com/abhi-raval-1910)
+- **LinkedIn:** [Add LinkedIn URL](#)
+- **Portfolio:** [Add Website URL](#)
+
 <h2 align="center">Connect with me:</h2>
 
 <p align="center">
