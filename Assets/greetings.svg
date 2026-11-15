@@ -6,7 +6,7 @@
       .neon-bg {
         fill: #0D1117;
         stroke: #22D3EE;
-        stroke-width: 1.5;
+        stroke-width: 1;
         stroke-opacity: 0.25;
         rx: 8px;
       }
@@ -21,7 +21,7 @@
       /* Outer Gas Bloom */
       .neon-outer {
         font-family: 'JetBrains Mono', monospace;
-        font-size: 22px;
+        font-size: 15px;
         font-weight: 800;
         fill: none;
         stroke: #22D3EE;
@@ -29,14 +29,14 @@
         stroke-linejoin: round;
         stroke-linecap: round;
         opacity: 0.35;
-        filter: blur(6px);
+        filter: blur(3px);
         animation: neon-hum 4s infinite steps(1, end);
       }
 
       /* Mid Glow Layer */
       .neon-mid {
         font-family: 'JetBrains Mono', monospace;
-        font-size: 22px;
+        font-size: 15px;
         font-weight: 800;
         fill: none;
         stroke: #22D3EE;
@@ -51,7 +51,7 @@
       /* White-Hot Core Gas */
       .neon-core {
         font-family: 'JetBrains Mono', monospace;
-        font-size: 22px;
+        font-size: 15px;
         font-weight: 800;
         fill: #FFFFFF;
         stroke: #E0F2FE;
