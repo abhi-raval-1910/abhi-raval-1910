@@ -1,9 +1,101 @@
-<svg fill="#22D3EE" height="200px" width="200px" id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" xml:space="preserve" stroke="#22D3EE">
-  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-  <g id="SVGRepo_iconCarrier">
-    <path d="M121.3,124.7c-2.5,0-4.9-0.6-7.1-1.5c-2.2-1-4.7-1.6-7.3-1.6c-2.6,0-5.1,0.6-7.3,1.6c-2.1,1-4.5,1.5-7.1,1.5 c-2.5,0-4.9-0.6-7.1-1.5c-2.2-1-4.7-1.6-7.3-1.6c-2.6,0-5.1,0.6-7.3,1.6c-2.1,1-4.5,1.5-7.1,1.5c-2.5,0-4.9-0.6-7.1-1.5 c-2.2-1-4.7-1.6-7.3-1.6c-2.6,0-5.1,0.6-7.3,1.6c-2.2,1-4.6,1.5-7.1,1.5c-2.5,0-4.9-0.6-7.1-1.5c-2.2-1-4.7-1.6-7.3-1.6 c-2.6,0-5.1,0.6-7.3,1.6c-2.2,1-4.6,1.5-7.1,1.5v-10.6c2.5,0,5-0.6,7.1-1.5c2.2-1,4.7-1.6,7.3-1.6c2.6,0,5.1,0.6,7.3,1.6 c2.2,1,4.6,1.5,7.1,1.5c2.5,0,4.9-0.6,7.1-1.5c2.2-1,4.7-1.6,7.3-1.6c2.6,0,5.1,0.6,7.3,1.6c2.2,1,4.6,1.5,7.1,1.5 c2.5,0,4.9-0.6,7.1-1.5c2.2-1,4.7-1.6,7.3-1.6c2.6,0,5.1,0.6,7.3,1.6c2.1,1,4.5,1.5,7.1,1.5c2.5,0,4.9-0.6,7.1-1.5 c2.2-1,4.7-1.6,7.3-1.6c2.6,0,5.1,0.6,7.3,1.6c2.1,1,4.5,1.5,7.1,1.5V124.7z"></path>
-    <path d="M38.9,72.7c5.3,0,9.7-4.4,9.7-9.7s-4.4-9.7-9.7-9.7c-5.3,0-9.7,4.3-9.7,9.7S33.6,72.7,38.9,72.7"></path>
-    <path d="M40.3,106.2c-1.5,2.6-4.9,3.5-7.5,1.9c-2.6-1.5-3.5-4.9-2-7.5L53.3,62c0.8-1.5,2-2.7,3.5-3.5L85.7,41l19.6-33.4 c1.8-3.3,6-4.4,9.3-2.5c3.2,1.9,4.4,6,2.5,9.3l-23.5,40c-0.8,1.5-2,2.7-3.5,3.5L56,79.1L40.3,106.2z"></path>
-  </g>
+<svg width="780" height="70" viewBox="0 0 780 70" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      
+      
+      .neon-bg {
+        fill: #0D1117;
+        stroke: #22D3EE;
+        stroke-width: 1.5;
+        stroke-opacity: 0.25;
+        rx: 8px;
+      }
+
+      .static-label {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 21px;
+        font-weight: 700;
+        fill: #8B949E;
+      }
+
+      /* Outer Gas Bloom */
+      .neon-outer {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 22px;
+        font-weight: 800;
+        fill: none;
+        stroke: #22D3EE;
+        stroke-width: 8px;
+        stroke-linejoin: round;
+        stroke-linecap: round;
+        opacity: 0.35;
+        filter: blur(6px);
+        animation: neon-hum 4s infinite steps(1, end);
+      }
+
+      /* Mid Glow Layer */
+      .neon-mid {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 22px;
+        font-weight: 800;
+        fill: none;
+        stroke: #22D3EE;
+        stroke-width: 3.5px;
+        stroke-linejoin: round;
+        stroke-linecap: round;
+        opacity: 0.85;
+        filter: blur(1.5px);
+        animation: neon-hum 4s infinite steps(1, end);
+      }
+
+      /* White-Hot Core Gas */
+      .neon-core {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 22px;
+        font-weight: 800;
+        fill: #FFFFFF;
+        stroke: #E0F2FE;
+        stroke-width: 0.8px;
+        stroke-linejoin: round;
+        stroke-linecap: round;
+        animation: neon-hum 4s infinite steps(1, end);
+      }
+
+      /* Authentic Ballast / Gas Discharge Behavior */
+      @keyframes neon-hum {
+        0%, 100% { opacity: 0.95; }
+        /* Rapid micro-ripple hum */
+        4% { opacity: 0.88; }
+        5% { opacity: 0.98; }
+        6% { opacity: 0.82; }
+        
+        /* Sudden double-stutter ignition burst */
+        32% { opacity: 0.3; }
+        32.5% { opacity: 0.9; }
+        33% { opacity: 0.15; }
+        33.8% { opacity: 0.95; }
+        
+        /* Stable burn with subtle current drop */
+        65% { opacity: 0.92; }
+        78% { opacity: 0.25; }
+        78.4% { opacity: 0.98; }
+        
+        /* Quick thermal flutter */
+        91% { opacity: 0.85; }
+        91.3% { opacity: 0.4; }
+        91.6% { opacity: 0.96; }
+      }
+    </style>
+  </defs>
+
+  <!-- Industrial Dark Glass Backing Card -->
+  <rect x="2" y="2" width="776" height="66" class="neon-bg" />
+
+  <!-- Text Group -->
+  <text x="390" y="43" text-anchor="middle">
+    <tspan class="static-label" dx="-10">Hi 👋, I'm </tspan>
+    <tspan class="neon-outer" dx="10">Nikunj Bhatt</tspan>
+    <tspan class="neon-mid" dx="-151">Nikunj Bhatt</tspan>
+    <tspan class="neon-core" dx="-151">Nikunj Bhatt</tspan>
+  </text>
 </svg>
