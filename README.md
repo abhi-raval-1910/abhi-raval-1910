@@ -27,6 +27,16 @@
 | **[MakerBot 2.0 – Animatronic Humanoid](#)** | `Raspberry Pi` `Python` `OpenCV` `PID Control` `Servo Systems` | Contributed to an interactive humanoid robot at Maker Bhavan, IIT Gandhinagar, integrating computer vision, face tracking, servo actuation, and 3D-printed mechanisms. |
 
 ---
+<table align="right">
+  <tr>
+    <td align="center">
+      <img src="https://media1.tenor.com/m/KRGfQXuQqbYAAAAC/jane.gif" width="245" alt="Patrick Jane" /><br />
+      <sub><i>"There's no such thing as psychics—<br/>just paying attention to details."</i></sub>
+    </td>
+  </tr>
+</table>
+
+---
 
 ## ⚙️ Technical Skills
 
