@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./Assets/greeting.svg" alt="Hi, I'm Nikunj Bhatt" />
+  <img src="./Assets/gemini-svg.svg" alt="Hi, I'm Nikunj Bhatt" />
 </p>
 
 <h3 align="center">Electronics & Communication Engineering Student | VLSI Developer, Embedded Systems & Full-Stack</h3>
