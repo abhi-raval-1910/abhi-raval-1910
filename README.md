@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/greeting.svg" alt="Hi, I'm Abhi Raval" />
+  <img src="./Assets/greeting.svg" alt="Hi, I'm Abhi Raval" />
 </p>
 <h3 align="center">Electronics & Communication Engineering Student | VLSI Developer, Embedded Systems & Full-Stack</h3>
 
